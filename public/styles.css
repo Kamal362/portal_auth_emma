@@ -1,0 +1,106 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color:rgb(63, 63, 160);
+    
+        /* background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        font-family: Calibri;
+        margin-top:50px;
+        margin-bottom: 50px;
+    }
+    
+    .login-screen{
+        width: 60%;
+        height: auto;
+        background: #fff;
+        /* border-radius: 10px; */
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 7px 29px 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    
+    .left{
+      
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(225, 225, 238);
+    }
+    
+    .left h2{
+        margin: top -3px;
+        padding-bottom: 20px;
+        font-family: cursive;
+    }
+    .left .icon-left{
+        width: 350px;
+        height: 350px;
+       
+    }
+    
+    .right{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right h3{
+        margin-top: 30px;
+        margin-bottom: -5px;
+    }
+    .right form{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .right form > *{
+        width: 80%;
+        height: 30px;
+        margin-top: 20px;
+        /* border-radius: 18px; */
+        outline: none;
+        border:none;
+        border-bottom: 1px solid black;
+        background-color: transparent;
+        /* background: rgb(179, 169, 167); */
+        padding-left: 20px;
+    }
+    
+    .right form select{
+        width:85%;
+    }
+    
+    form button{
+        background-color: rgb(55, 23, 129) !important;
+        border-radius: 25px;
+        border-bottom:0px !important;
+        color: #fff; 
+        margin-bottom: 20px;  
+    }
